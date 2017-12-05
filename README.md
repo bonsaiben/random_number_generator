@@ -1,5 +1,7 @@
 # Random Number Generator
 
+Generates a random location in the required reference book of random numbers.
+
 ## Usage
 
 ```
