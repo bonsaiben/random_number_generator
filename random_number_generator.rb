@@ -12,4 +12,6 @@ else
   col = ['A', 'B', 'C'][rand(3)]
 end
 
+row = row.to_s.rjust(2, '0')
+
 puts "Your random number is on page #{page}, row #{row}, column #{col} of James McNalley's A Small Book Of Random Numbers."
