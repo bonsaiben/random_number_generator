@@ -14,4 +14,4 @@ end
 
 row = row.to_s.rjust(2, '0')
 
-puts "Your random number is on page #{page}, row #{row}, column #{col} of James McNalley's A Small Book Of Random Numbers."
+puts "Your random number is on page #{page}, row #{row}, column #{col} of James McNalley's \e[3mA Small Book Of Random Numbers\e[0m."
